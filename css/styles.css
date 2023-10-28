@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado con imagen de fondo */
+header {
+    position: relative;
+    background: url(banner.jpg);
+    background-size: 100% auto; /* Ancho al 100%, altura automática */
+    background-attachment: fixed;
+    height: 100vh; 
+    color: #fff;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+header h1{
+    font-size: 40px;
+    color: #333;
+}
+h3{
+    font-size: 25px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 30px;
+    height: 60px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos de la sección "Sobre Mí" */
+#sobre-mi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-mi {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    font-size: 24;
+}
+
+
+/* Estilos de la sección "Mis Proyectos" */
+#proyectos {
+    text-align: center;
+    padding: 24px;
+}
+
+#proyectos h2 {
+    font-size: 24px;
+}
+
+
+.proyecto {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top; /* Alinea las imágenes en la parte superior */
+    text-align: center;
+    width: 30%; /* Ancho fijo para las imágenes (ajusta según tus necesidades) */
+}
+.proyecto p {
+    font-size: 16px;
+}
+
+.proyecto img {
+    width: 100%; /* Asegura que todas las imágenes tengan el mismo ancho */
+    max-height: 100%; /* Asegura que todas las imágenes tengan la misma altura máxima */
+}
+.proyecto-3 img {
+    width: 421px;
+    height: 258px;
+}
+
+
+.contacto{
+    
+}
+
+.contacto h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.contacto form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contacto label, .contacto input, .contacto textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contacto input[type="submit"] {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contacto input[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    max-width: 40px;
+    height: auto;
+}
+/* Estilos del footer */
+.footer {
+    font-family: 'Roboto', sans-serif; /* Aplicar la fuente 'Roboto' al footer */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el texto del footer */
+.footer h4 {
+    font-family: 'Roboto', sans-serif; /* Aplicar la fuente 'Roboto' al texto dentro de <h4> */
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* Estilos de la sección "Mis Proyectos" */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
